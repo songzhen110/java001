@@ -1,0 +1,22 @@
+
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(°‡¦ðÿÿÿÿÿ
+9
+java:S1659"#Declare "right" on a separate line.(˜°ãß
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8€íë¿ù/
+e
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(óÛÉ½üÿÿÿÿ8íë¿ù/
+>	java:S108")Either remove or fill this block of code.(ä ¹€
+U	java:S106""9Replace this use of System.out or System.err by a logger.(”ÿ¶ß8‚íë¿ù/
+{
+java:S2142)"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8û²ì¿ù/
+e
+java:S2276("CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(óÛÉ½üÿÿÿÿ8û²ì¿ù/
+E	java:S108)")Either remove or fill this block of code.(ä ¹€8û²ì¿ù/
+U	java:S106."9Replace this use of System.out or System.err by a logger.(”ÿ¶ß8ü²ì¿ù/
+g	java:S1016"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ðûÂ§þÿÿÿÿ
+b
+java:S2184"@Cast one of the operands of this addition operation to a "long".(óÛÉ½üÿÿÿÿ8†íë¿ù/
+b
+java:S2184("@Cast one of the operands of this addition operation to a "long".(óÛÉ½üÿÿÿÿ8‚³ì¿ù/

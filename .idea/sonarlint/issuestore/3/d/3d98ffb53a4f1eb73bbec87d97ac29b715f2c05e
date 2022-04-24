@@ -1,0 +1,14 @@
+
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ðÐÓ 
+t
+java:S2142,"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¦Òûüÿÿÿÿ
+t
+java:S2142>"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ˆ§ÄŽþÿÿÿÿ
+C
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+j
+java:S1192"TDefine a constant instead of duplicating this literal "currentThreadName =" 3 times.(ðÐÓ 

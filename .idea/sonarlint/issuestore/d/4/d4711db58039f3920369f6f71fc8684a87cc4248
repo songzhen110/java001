@@ -1,0 +1,17 @@
+
+B
+java:S3011",This accessibility update should be removed.(‚é∑“
+Q	java:S125"<This block of commented-out lines of code should be removed.(–®œé
+B
+java:S3011",This accessibility bypass should be removed.(Â˝∑õ
+Q	java:S125"<This block of commented-out lines of code should be removed.(éù÷ı
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÙ⁄Û˝ˇˇˇˇ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§è∏§˚ˇˇˇˇ
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ŒÄåŸ8íö⁄ÛÅ0
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(”ä”¯˙ˇˇˇˇ8íö⁄ÛÅ0
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ú™è¯8ìö⁄ÛÅ0
+0
+java:S1220""Move this file to a named package.

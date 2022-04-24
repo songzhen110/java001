@@ -1,0 +1,26 @@
+
+h
+java:S3776""RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(œû¿Ø
+N	java:S106("9Replace this use of System.out or System.err by a logger.(êüö›
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(ÇÙT
+S	java:S106."9Replace this use of System.out or System.err by a logger.(Üø¾ıÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(©âáŞüÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ĞòŸ¸
+M	java:S106<"9Replace this use of System.out or System.err by a logger.(½İÃa
+M	java:S106>"9Replace this use of System.out or System.err by a logger.(½İÃa
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(î½Á‘øÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(æÁÎé
+X
+java:S1128	";Remove this unused import 'java.nio.channels.SelectionKey'.(°™ˆ8Äß¿´ü/
+Y
+java:S1128
+"7Remove this unused import 'java.nio.channels.Selector'.(©Ê˜èùÿÿÿÿ8Åß¿´ü/
+d
+java:S1128"BRemove this unused import 'java.nio.channels.ServerSocketChannel'.(¬½¸éúÿÿÿÿ8Åß¿´ü/
+b	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•Íî
+e
+java:S2259/"JA "NullPointerException" could be thrown; "serverSocket" is nullable here.(Ìßàÿÿÿÿÿ
+`
+java:S2095&"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(•İ°•
+=
+java:S2189-""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ

@@ -1,0 +1,16 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(É¤ş
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ù±¹¥ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾å±ğùÿÿÿÿ
+Œ
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
+V	java:S125"<This block of commented-out lines of code should be removed.(¨ÅóŞşÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ë¯í¾
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(‹¿Ïıÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(«ä÷äıÿÿÿÿ
+A
+java:S1144"+Remove this unused private "myLock" method.(€¶ƒ¢
+H
+java:S1144"-Remove this unused private "myUnLock" method.(ó°ÖÆûÿÿÿÿ
+W
+java:S49736"<Strings and Boxed types should be compared using "equals()".(«ä÷äıÿÿÿÿ

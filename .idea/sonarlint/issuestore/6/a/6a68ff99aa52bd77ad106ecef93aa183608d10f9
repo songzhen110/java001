@@ -1,0 +1,7 @@
+
+O
+java:S1854"9Remove this useless assignment to local variable "queue".(×ÿƒƒ
+@
+java:S1481"*Remove this unused "queue" local variable.(×ÿƒƒ
+[
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø
