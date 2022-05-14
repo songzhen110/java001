@@ -1,4 +1,7 @@
-package singleton;
+package designpatterns.singleton;
+
+import java.util.LinkedList;
+import java.util.concurrent.CountDownLatch;
 
 /***
  * 懒汉模式（DCL双重检查锁机制）

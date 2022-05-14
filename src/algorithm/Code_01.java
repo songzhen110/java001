@@ -11,17 +11,16 @@ import java.util.Map;
 public class Code_01 {
 
     public static int[] twoSum(int[] nums, int target) {
-        if(nums == null || nums.length < 2){
-            return null;
-        }
+        if(nums == null || nums.length < 2) return null;
 
-        Map<Integer,Integer> numberMap = new HashMap<>(16);
+        Map<Integer,Integer> numMap = new HashMap<>(16);
         for (int i = 0; i < nums.length; i++) {
-            int partnerNumber = target - nums[i];
-            if(numberMap.containsKey(partnerNumber)){
-                return new int[]{numberMap.get(partnerNumber),i};
+            // 伙伴数
+            int partner = target - nums[i];
+            if(numMap.containsKey(partner)){
+                return new int[]{numMap.get(partner),i};
             }
-            numberMap.put(nums[i],i);
+            numMap.put(nums[i],i);
         }
 
         return null;
@@ -29,7 +28,7 @@ public class Code_01 {
 
     public static void main(String[] args) {
         int[] nums = {1,5,8,9,2,6,7};
-        int[] ints = twoSum(nums, 3);
+        int[] ints = twoSum(nums, 13);
 
         System.out.println(Arrays.toString(ints));
     }

@@ -10,21 +10,21 @@ import java.util.Map;
 public class Code_03 {
 
     public static int lengthOfLongestSubstring(String s) {
-        int len = s.length(),ans = 0;
-        Map<Character,Integer> charIndexMap = new HashMap<>();
+        int ans = 0,len = s.length();
+        Map<Character,Integer> charMap = new HashMap<>(16);
+
         for (int start = 0,end = 0; end < len; end++) {
             char cru = s.charAt(end);
-            if(charIndexMap.containsKey(cru)){
-                start = Math.max(start,charIndexMap.get(cru));
+            if(charMap.containsKey(cru)){
+                start = Math.max(start,charMap.get(cru));
             }
+            charMap.put(cru,end+1);
             ans = Math.max(ans,end-start+1);
-            charIndexMap.put(cru,end+1);
         }
-
         return ans;
     }
 
     public static void main(String[] args) {
-
+        System.out.println(lengthOfLongestSubstring("dadadjadjdajavg"));
     }
 }

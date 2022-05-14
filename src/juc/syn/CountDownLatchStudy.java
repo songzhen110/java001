@@ -3,6 +3,7 @@ package juc.syn;
 import myenum.Company;
 
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
 public class CountDownLatchStudy {
 
@@ -21,7 +22,7 @@ public class CountDownLatchStudy {
             }, Company.getName(i).getName()).start();
         }
 
-        countDownLatch.await();
+        countDownLatch.await(10, TimeUnit.SECONDS);
         System.out.println("班长离开教室");
     }
 }

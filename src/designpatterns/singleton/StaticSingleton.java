@@ -1,4 +1,4 @@
-package singleton;
+package designpatterns.singleton;
 
 /***
  * 饿汉模式

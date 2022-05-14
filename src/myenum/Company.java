@@ -1,7 +1,7 @@
 package myenum;
 
 public enum Company {
-    ONE(1,"吴"),TWO(2,"明"),THREE(3,"qing");
+    ONE(1,"吴"),TWO(2,"明"),THREE(3,"强");
     private int code;
     private String name;
 
